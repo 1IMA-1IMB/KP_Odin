@@ -1,0 +1,51 @@
+
+body{
+  background-color:rgba(34, 0, 255, 0.744);  
+}
+img{
+    border: solid rgb(0, 0, 150) 5px;
+    width: 30%;
+    
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    color: antiquewhite;
+}
+h2{
+    color: antiquewhite;
+}
+p{
+    color: antiquewhite;
+}
+.box1{
+    background:blue;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+}
+.box2{
+    background:white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+}
+.box3{
+    background: red;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+flex-direction: row;
+align-items: center;
+border: solid black;
+}
