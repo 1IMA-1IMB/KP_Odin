@@ -1,0 +1,20 @@
+body{
+background-color: lightcyan;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.header{
+    background-color: red;
+    height: 20%;
+}
+.middle{
+    height: 60%;
+background-color: blue;
+}
+.footer{
+    height: 20%;
+    background-color: yellow;
+}
