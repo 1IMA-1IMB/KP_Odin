@@ -1,0 +1,46 @@
+body {
+    background: lightcyan;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+    background: red;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle {
+    height: 60%;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.middle-img{
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    height: 20%;
+    background: yellow;
+}
+@media only screen and (max-width: 600px) {
+    .middle {
+      background-color: lightgreen;
+    }
+    .middle-img{
+        width: 100%;
+    }
+  }

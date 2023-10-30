@@ -1,20 +1,27 @@
-body{
-background-color: lightcyan;
+body {
+    background: lightcyan;
 }
-.main-container{
+
+.main-container {
     display: flex;
     flex-direction: column;
     height: 100vh;
 }
-.header{
-    background-color: red;
+
+.header {
+    background: red;
     height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.middle{
+
+.middle {
     height: 60%;
-background-color: blue;
+    background-color: blue;
 }
-.footer{
+
+.footer {
     height: 20%;
-    background-color: yellow;
+    background: yellow;
 }
