@@ -18,7 +18,7 @@ body {
 
 .middle {
     height: 60%;
-    background-color: blue;
+    background-color: black;
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -26,8 +26,10 @@ body {
     justify-content: center;
 }
 .middle-img{
-    height: 100%;
-    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    width: 30%;
     align-items: center;
     justify-content: center;
 }
@@ -36,9 +38,9 @@ body {
     height: 20%;
     background: yellow;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
     .middle {
-      background-color: lightgreen;
+      padding: 2em;
     }
     .middle-img{
         width: 100%;
