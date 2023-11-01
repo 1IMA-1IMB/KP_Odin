@@ -1,0 +1,26 @@
+.container{
+    justify-content: center;
+    align-items: center;
+    border: solid black;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    border: solid yellow;
+}
+.header-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3em;
+}
