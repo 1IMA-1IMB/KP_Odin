@@ -1,5 +1,5 @@
 body{
-    background-color: grey;
+    background-color: lightgray;
 }
 .container{
     justify-content: center;
@@ -26,6 +26,11 @@ body{
     justify-content: center;
     align-items: center;
     padding: 3em;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+
 }
 @media only screen and (max-width: 1000px) {
     body {
