@@ -1,8 +1,6 @@
 .container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 .header{
     display: flex;
@@ -10,4 +8,17 @@
     justify-content: center;
     align-items: center;
 
+}
+.middle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.me{
+    border: solid black;
+}
+.assignments{
+    border: solid black;
+    display: flex;
+    flex-direction: column;
 }
