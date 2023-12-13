@@ -17,6 +17,7 @@
     align-items: center;
     height: 50px;
     object-fit: contain;
+    
 }
 .middle{
     display:flex;
