@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Celsius and Fahrenheit converter</h1>
+    <script src="index.js">
+            
+    </script>
+    <p>
+        <label>Fahrenheit</label>
+        <input id="inputFahrenheit" type="number" placeholder="Fahrenheit"
+        oninput="fahrenheitConverter(this.value)"
+        onchange="fahrenheitConverter(this.value)">
+      </p>
+      <p>Celsius: <span id="outputCelsius"></span></p>
+
+      <p>
+        <label>Celsius</label>
+        <input id="inputCelsius" type="number" placeholder="Celsius"
+        oninput="celsiusConverter(this.value)"
+        onchange="celsiusConverter(this.value)">
+      </p>
+      <p>Fahrenheit: <span id="outputFahrenheit"></span></p>
+
+</body>
+</html>
