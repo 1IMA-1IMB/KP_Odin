@@ -40,8 +40,8 @@
     <p>
         <label>Liter</label>
         <input id="inputLiter1" type="number" placeholder="Liter"
-        oninput="LiterOuncesConverter(this.value)"
-        onchange="LiterOuncesConverter(this.value)">
+        oninput="literOuncesConverter(this.value)"
+        onchange="literOuncesConverter(this.value)">
     </p>
     <p> Ounces: <span id="outputOunces"></span> </p>
 
@@ -62,6 +62,24 @@
         onchange="literCupsConverter(this.value)">
     </p>
     <p> Cups: <span id="outputCups"></span> </p>
+
+
+    <h3>Spiseskjeer</h3>
+    <p>
+        <label> Spiseskjeer</label>
+        <input id="inputSpiseskjeer" type="number" placeholder="Spiseskjeer"
+        oninput="speiseskjeerConverter(this.value)"
+        onchange="speiseskjeerConverter(this.value)">
+    </p>
+    <p> Liter: <span id="outputLiter3"></span></p>
+
+    <p>
+        <label>Liter</label>
+        <input id="inputLiter3" type="number" placeholder="Liter"
+        oninput="literSpiseskjeerConverter(this.value)"
+        onchange="literSpiseskjeerConverter(this.value)">
+    </p>
+    <p> Spiseskjeer: <span id="outputSpiseskjeer"></span> </p>
 
     <script src="Javascript/index.js"></script>
 </body>
