@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liter Converter</title>
+</head>
+<body>
+    <h1> Liter Converters</h1>
+
+    <h3>Gallons</h3>
+
+    <p>
+        <label>Gallons</label>
+        <input id="inputGallon" type="number" placeholder="Gallon"
+        oninput="gallonConverter(this.value)"
+        onchange="gallonConverter(this.value)">
+    </p>
+    <p>Liter: <span id="outputLiter"></span> </p>
+    
+    <p>
+        <label>Liter</label>
+        <input id="inputLiter" type="number" placeholder="Liter"
+        oninput="literGallonConverter(this.value)"
+        onchange="literGallonConverter(this.value)">
+    </p>
+    <p>Gallons <span id="outputGallon"></span> </p>
+
+
+    <h3>Ounces</h3>
+
+    <p>
+        <label>Ounces</label>
+        <input id="inputOunces" type="number" placeholder="Ounces"
+        oninput="ouncesConverter(this.value)"
+        onchange="ouncesConverter(this.value)">
+    </p>
+    <p> Liter: <span id="outputLiter1"></span> </p>
+
+    <p>
+        <label>Liter</label>
+        <input id="inputLiter1" type="number" placeholder="Liter"
+        oninput="LiterOuncesConverter(this.value)"
+        onchange="LiterOuncesConverter(this.value)">
+    </p>
+    <p> Ounces: <span id="outputOunces"></span> </p>
+
+
+    <h3>Cups</h3>
+    <p>
+        <label> Cups</label>
+        <input id="inputCups" type="number" placeholder="Cups"
+        oninput="cupsConverter(this.value)"
+        onchange="cupsConverter(this.value)">
+    </p>
+    <p> Liter: <span id="outputLiter2"></span></p>
+
+    <p>
+        <label>Liter</label>
+        <input id="inputLiter2" type="number" placeholder="Liter"
+        oninput="literCupsConverter(this.value)"
+        onchange="literCupsConverter(this.value)">
+    </p>
+    <p> Cups: <span id="outputCups"></span> </p>
+
+    <script src="Javascript/index.js"></script>
+</body>
+</html>
