@@ -3,13 +3,23 @@
 function gallonConverter(valNum) {
     valNum = parseFloat(valNum);
     document.getElementById("outputLiter").innerHTML = (valNum*3.78541);
-    //Oppgave 2 (Funker ikke).
-    let tall = valNum;
-    let gallon_converter = [tall];
-    gallon_converter = tall.split();
-    console.log(gallon_converter);
-}
+    //Oppgave 2 
+    let gallon_converter = [valNum];
+    gallon_converter = valNum.toString().split('');
+    realNumber = gallon_converter.map(Number);
+    console.log(realNumber);
 
+    if (realNumber[0] == realNumber[realNumber.length -1]) {
+        console.log('Dette er et parameter');
+        document.getElementById("riktigGallonParameter").innerHTML = ("Dette er et parameter");
+
+    } else {
+        console.log('Dette er ikke et parameter');
+        document.getElementById("feilGallonParameter").innerHTML = ("Dette er ikke et parameter");
+
+    }
+    
+}
 
 
 //Liter to Gallon Converter
