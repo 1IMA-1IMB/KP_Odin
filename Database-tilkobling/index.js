@@ -36,13 +36,8 @@ connection.query('SELECT * FROM elev', function (error, results, fields) {
 */
 app.get('/getallstudents', (request, response) => {
 
-  connection.query('SELECT * FROM elev', function (error, results, fields) {
-    if (error) throw error;
-    response.send(JSON.stringify(results));
+    response.send(JSON.stringify('Hello World'));
   });
-
-  
-})
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
